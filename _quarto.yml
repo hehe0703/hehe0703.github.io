@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "henriette's blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: linkedin
+        text: LinkedIn
+        href: https://linkedin.com/in/henriette-e-heinrich
+      - icon: github
+        text: Github
+        href: https://github.com/hehe0703
+format:
+  html:
+    theme: cosmo
+    css: styles.css
